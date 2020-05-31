@@ -4,8 +4,6 @@ def solve():
     b=list(map(int,input().split()))
     sum1=[0]*(n+1)
     sum2=[0]*(n+1)
-    sum1[0]=0
-    sum2[0]=0
     result=0
     for i in range(n):
         sum1[i+1] = a[i]+sum1[i]
